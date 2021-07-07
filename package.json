@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "npm run teleram-bot",
+    "parser": "node server/index.js",
+    "teleram-bot": "node server/telegramBot.js"
   },
   "type": "module",
   "author": "fs.alsynbaev",
